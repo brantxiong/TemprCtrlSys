@@ -1,0 +1,4 @@
+--device DARMAD "aduc702x.o" "main.o" "interface.o" "io_ctrl.o" "ocm12864.o" "serial.o" "temperature.o" "time.o" "int.o" "key.o" "ir.o" "pid_ctrl.o" --strict --scatter "CtrlSysV7.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CtrlSysV7.map" -o "CtrlSysV7.axf"

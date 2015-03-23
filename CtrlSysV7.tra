@@ -1,0 +1,30 @@
+*** Creating Trace Output File 'CtrlSysV7.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"aduc702x.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"interface.o"'
+### List of Objects: adding '"io_ctrl.o"'
+### List of Objects: adding '"ocm12864.o"'
+### List of Objects: adding '"serial.o"'
+### List of Objects: adding '"temperature.o"'
+### List of Objects: adding '"time.o"'
+### List of Objects: adding '"int.o"'
+### List of Objects: adding '"key.o"'
+### List of Objects: adding '"ir.o"'
+### List of Objects: adding '"pid_ctrl.o"'
+### ADS-LD Command completed:
+--device DARMAD "aduc702x.o" "main.o" "interface.o" "io_ctrl.o" "ocm12864.o" "serial.o" "temperature.o" "time.o" "int.o" "key.o" "ir.o" "pid_ctrl.o" --strict --scatter "CtrlSysV7.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CtrlSysV7.map" -o "CtrlSysV7.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CtrlSysV7.axf'
+### ADS-LD Command File: 'CtrlSysV7.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CtrlSysV7.lnp', Handle=0x0000017C
+### Writing '.lnp' file
+### ADS-LD Command file 'CtrlSysV7.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
